@@ -1,0 +1,90 @@
+{% load static %}
+<!-- FOOTER -->
+	<footer id="footer" class="section section-grey">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<!-- footer logo -->
+						<div class="footer-logo">
+							<a class="logo" href="#">
+		            <img src="{% static 'dxn.ico'%}" alt="">
+		          </a>
+						</div>
+						<p>Sog'lom hayot sari</p>
+						<ul class="footer-social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Shaxsiy kabinet</h3>
+						<ul class="list-links">
+							<li><a href="/user">Shaxsiy kabinet</a></li>
+							<li><a href="/user">Olmoqchi bo'lgan mahsulotlar</a></li>
+						    <li><a href="/login">Kirish</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix visible-sm visible-xs"></div>
+
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Haridor uchun</h3>
+						<ul class="list-links">
+							<li><a href="/about">Biz haqimizda</a></li>
+							<li><a href="/contact">Aloqa</a></li>
+							<li><a href="/product">Mahsulotlar</a></li>
+							<li><a href="/faq">KBS</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<!-- footer subscribe -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">{{ setting.title }}</h3>
+						<p>{{ setting.description }}</p>
+                        <a href="/contact">Aloqa</a>
+
+					</div>
+				</div>
+				<!-- /footer subscribe -->
+			</div>
+			<!-- /row -->
+			<hr>
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> UMDSOFT Xususiy Korxonasi tomonidan ishlab chiqilgan <i class="fa fa-heart-o" aria-hidden="true"></i>  <a href="http://umdsoft.uz" target="_blank">SDeV</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</div>
+					<!-- /footer copyright -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+
+	<script src="{% static 'js/bootstrap.min.js'%}"></script>
+	<script src="{% static 'js/slick.min.js'%}"></script>
+	<script src="{% static 'js/nouislider.min.js'%}"></script>
+	<script src="{% static 'js/jquery.zoom.min.js'%}"></script>
+	<script src="{% static 'js/main.js'%}"></script>
